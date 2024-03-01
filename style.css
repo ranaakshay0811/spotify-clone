@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+}
+@media screen and (min-width:767px) and (max-width:1024px) {
+    
+}
+.icon{
+    border-radius: 200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+  font-family: 'Ubuntu', sans-serif;;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+   list-style-type: none;
+   height: 60px;
+   background-color: black;
+   color: white;
+}
+nav ul li:hover{
+    color:chartreuse;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 60px;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:2rem;
+    margin-left: -15px;
+}
+.container{
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+     display: flex;
+      margin: 23px auto;
+      border-radius: 15px;
+      padding: 10px;
+      padding-left:px ;
+      background-image: url('wallpaper.jpg') ;
+      background-repeat: no-repeat;
+       background-size:  500 px; 
+         background-size: cover;
+     background-position: center;
+      
+    }
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myprogressbar{
+    width: 80vw;
+}
+ .length{
+  /* border: 2px solid white; */
+  width:350px;
+  padding: 10px;
+  
+} 
+
+.songItems  {
+    height:50px;
+    width: 350px;
+   border-radius: 30px;
+    font-size:large;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin-bottom: 12px ;
+    padding-left: -20px; 
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.songItems img{
+    width: 50px;
+    border-radius: 44px;
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+
+}
+ .songinfo img{
+    opacity: 0;
+   transition:opacity 0.1s ease-in;
+} 
